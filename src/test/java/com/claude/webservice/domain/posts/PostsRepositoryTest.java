@@ -1,12 +1,12 @@
 package com.claude.webservice.domain.posts;
 
+
 import org.junit.After;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
 import java.time.LocalDateTime;
 import java.util.List;
 
@@ -14,10 +14,9 @@ import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 import static org.hamcrest.CoreMatchers.is;
 
-
 @RunWith(SpringRunner.class)
 @SpringBootTest
-class PostsRepositoryTest {
+public class PostsRepositoryTest {
     @Autowired
     PostsRepository postsRepository;
 
