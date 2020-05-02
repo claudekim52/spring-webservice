@@ -29,5 +29,5 @@ deploy:
             acl: public_read
             wait-until-deployed: true
             on:
-              repo: jojoldu/springboot-webservice #Github 주소
+              repo: claudekim52/springboot-webservice #Github 주소
               branch: master
