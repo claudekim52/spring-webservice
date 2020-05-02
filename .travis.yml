@@ -31,10 +31,11 @@ deploy:
     on:
       repo: claudekim52/spring-webservice #Github 주소
       branch: master
+
   - provider: codedeploy
     access_key_id: $AWS_ACCESS_KEY # Travis repo settings에 설정된 값
     secret_access_key: $AWS_SECRET_KEY # Travis repo settings에 설정된 값
-    bucket: spring-webservice-deploy-claude # S3 버킷
+    bucket: springboot-webservice-deploy-claude # S3 버킷
     key: spring-webservice.zip # 빌드 파일을 압축해서 전달
     bundle_type: zip
     application: springboot-webservice # 웹 콘솔에서 등록한 CodeDeploy 어플리케이션
