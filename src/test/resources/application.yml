@@ -1,11 +1,10 @@
-#Test
-Spring:
+# Test
+spring:
   profiles:
-    active: local #기본환경 선택
-
+    active: local # 기본 환경 선택
 # local 환경
 ---
-Spring:
+spring:
   profiles: local
   jpa:
     show-sql: true
